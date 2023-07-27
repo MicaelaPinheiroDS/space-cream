@@ -1,0 +1,20 @@
+/*----------------------default-config-----------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    --highlighted-title-color: #4A4E69;
+    --paragraph-color: #23053A;
+    --header-bg-color: #8E9AAF;
+    --emphasis-color: #CBC0D3;
+    --body-bg-color: #EFF1FF;
+    --tittle-font: 'Staatliches', cursive;
+    --body-font: 'Palanquin', sans-serif;
+}
+body {
+    font-size: 1.6rem;
+}
