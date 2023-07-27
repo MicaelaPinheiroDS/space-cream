@@ -45,3 +45,43 @@ header h1 {
     letter-spacing: .2rem;
     padding-block: .8rem;
 }
+/*----------------------main-----------------------------------*/
+.main-page-intro-text{
+    margin-top: 1.4rem;
+    font-feature-settings: 'subs' on;
+}
+.main-page-intro-text p {
+    text-align: center;
+    font-family: var(--body-font);
+    color: var(--paragraph-color);
+    font-size: 2rem;
+    line-height: 1.5rem; 
+    max-width: 36.5rem;
+    margin: auto 4rem;
+}
+.cards {
+    display: grid;
+    justify-content: center;
+    gap: 3.2rem;
+    margin-top: 6.2rem;
+}
+.card {
+    width: fit-content;
+    position: relative;
+}
+.card img {
+    border-radius: 2rem;
+}
+.card figcaption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-inline: 2.3rem;
+    background: var(--body-bg-color);
+    border-radius: 2rem;
+    margin: 1.6rem;
+    font-family: var(--tittle-font);
+    font-size: 2rem;
+    line-height: 3.4rem;
+    letter-spacing: 1px;
+}
