@@ -68,6 +68,7 @@ header h1 {
 .card {
     width: fit-content;
     position: relative;
+    animation: botton-to-up .6s ease-in;
 }
 .card img {
     border-radius: 2rem;
@@ -84,4 +85,27 @@ header h1 {
     font-size: 2rem;
     line-height: 3.4rem;
     letter-spacing: 1px;
+    animation: top-to-down .4s ease-in backwards;
+    animation-delay: .3s;
+}
+/*----------------------animation-----------------------------------*/
+@keyframes top-to-down {
+    0% {
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes botton-to-up {
+    0% {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
